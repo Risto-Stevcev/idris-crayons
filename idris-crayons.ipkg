@@ -1,0 +1,16 @@
+package idris_crayons
+
+brief = "An idris library to colorize strings for terminals"
+version = 0.1.0
+readme = ./README.md
+license = "MIT"
+author = "Risto Stevcev"
+maintainer = "Risto Stevcev"
+homepage = https://github.com/Risto-Stevcev/idris-crayons
+sourceloc = https://github.com/Risto-Stevcev/idris-crayons
+bugtracker = https://github.com/Risto-Stevcev/idris-crayons/issues
+
+modules = Crayons
+        , Test.Crayons
+
+tests = Test.Crayons.main
